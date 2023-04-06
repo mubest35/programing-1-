@@ -1,0 +1,101 @@
+//c++basic
+// c++ single line  comments
+/* c++ multi line comments*/ 
+#include<iostream>//header file
+using namespace std;
+#define z 3//c++ constants
+int main() //main function
+{
+ int x;// c++ identifiers
+  int y=3;// variable declaration
+ cin>>x; //input statements
+ cout<<x<<endl<<y<<endl;//output statements
+ return 0;// return is  one type of c++ keywords     
+}
+//bitwise operation
+#include<iostream>
+using namespace std;
+int main(){
+ int M=15;
+ int N=10;
+ int Q;
+ Q=M|N;
+ cout<<Q<<endl;
+ Q=M&N;
+ cout<<Q<<endl;
+ Q=M^N;
+ cout<<Q<<endl; 
+ Q=M>>1;
+ cout<<Q<<endl;   
+ Q=M<<1;
+ cout<<Q<<endl;    
+}
+//increment or decrement operations
+#include<iostream>
+using namespace std;
+int main(){
+ int x, a=5,b=10,c=6,d=;
+ x=++a + b++ - c-- * --d;
+ cout <<x<<endl;
+}
+//precendence operations
+#include<iostream>
+using namespace std;
+int main(){
+ int a=5;
+ int b=10;
+ int c=6;
+ int f=8;
+ int m=40;
+ int n=20;
+ int d;
+ d=(a+b)*c-n/f%m;
+ cout<<d<<endl;
+}
+//arithmetic operation 
+#include<iostream>
+using namespace std;
+int main(){
+ int a=10,b=10; 
+ int sum,sub,mul,div,rem;
+  sum=a+b;
+ sub=a-b;
+ mul=a*b;
+ div=a/b;
+ rem=a%b;
+ cout<<sum<<endl<<sub<<endl<<mul<<endl<<div<<endl<<rem<<endl;
+ return 0;
+}
+//assignment operation
+#include<iostream>
+using namespace std;
+int main(){
+ int a=10,b=6;
+ a+=b;
+ a-=b;
+ a*=b;
+ a/=b;
+ a%=b;
+ cout <<x<<endl<<y<<endl;
+}
+//logical operation
+#include<iostream>
+using namespace std;
+int main(){
+ int Q=5,P=10;
+ cout<<(Q&&P)<<endl;
+  cout<<!(Q==P)<<endl;
+  cout<<(Q||P)<<endl;
+}
+//relational operation 
+#include<iostream>
+using namespace std;
+int main(){
+ int Q=5,P=6;
+ cout<<(Q==P)<<endl;
+  cout<<(Q!=P)<<endl;
+  cout<<(Q<P)<<endl;
+  cout<<(Q<=P)<<endl;
+  cout<<(Q>p)<<endl;
+  cout<<(Q>=P)<<endl;
+}

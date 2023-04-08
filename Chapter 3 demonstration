@@ -1,0 +1,57 @@
+//if statement 
+#include <iostream>
+using namespace std;
+int main(){
+	int x,y;
+	cout<<"enter the numbers"<<endl;
+	cin>>x>>y;
+	if(x>y)
+	cout<<"z"<<endl;
+  return 0;
+}
+//if else
+#include <iostream>
+using namespace std;
+int main() {
+	int x=6;
+if( x>5)
+  cout<<"yes"<<endl;
+else
+  cout<<""<<endl;
+  return 0;
+}
+//else if statement 
+#include <iostream>
+using namespace std;
+int main() {
+	int x;
+	cout<<"enter the number"<<endl;
+	cin>>x;
+	if (x<10){
+	cout<<"xx"<<endl;
+	}
+  else if (x<10){ 
+  cout<<"yy"<<endl;
+  }  else if(x<20){ 
+  cout <<"zz"<<endl;
+  }
+  else{
+  	cout<<"error"<<endl;
+  }
+      return 0;
+}
+//nested
+#include <iostream>
+using namespace std;
+int main(){
+	int x,y,z;
+	cout<<"enter the numbers"<<endl;
+	cin>>x>>y>>z;
+	if(x>y){
+		if(y>z)
+		cout<<"jemal"<<endl;
+	}
+  else
+  cout<<"not correct"<<endl;
+return 0;
+}

@@ -1,0 +1,64 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string cars[8] = {"abuki", "kadija", "hussen", "muaz"};
+  cout << cars[6];
+ return 0;
+}
+}
+
+//using for loop
+#include <iostream>
+using namespace std;
+
+int main() {
+  int myNumbers[5] = {10, 20, 30, 40, 50};
+  for (int i = 0; i < 5; i++) {
+    cout << myNumbers[i] << "\n";
+  }
+  return 0;
+}
+//multi dimensional Array
+#include <iostream>
+using namespace std;
+
+int main() {
+  string letters[2][4] = {
+    { "M", "N", "O", "P" },
+    { "Q", "R", "R", "S" }
+  };
+  letters[0][0] = "M";
+  
+  cout << letters[1][2];
+  return 0;
+}
+//another multi dimensional
+#include <stdio.h>
+
+int main() {
+  int matrix[2][3] = { {1, 4, 2}, {3, 6, 8} };
+  printf("%d", matrix[0][2]);
+ 
+  return 0;
+}
+//string
+#include <stdio.h>
+
+int main() {
+  char code[] = "java";
+  printf("%c", code[3]);
+ 
+  return 0;
+}
+//string function 
+#include <stdio.h>
+#include <string.h>
+ 
+int main() {
+  char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  printf("Length is: %d\n", strlen(alphabet));
+  printf("Size is: %d\n", sizeof(alphabet));
+  return 0;
+}
